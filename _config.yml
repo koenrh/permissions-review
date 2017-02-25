@@ -1,0 +1,10 @@
+permalink: pretty
+
+title: Review permissions
+url: https://www.permissions.review
+
+exclude:
+  - CONTRIBUTING.md
+  - Gemfile
+  - LICENSE
+  - README.md
