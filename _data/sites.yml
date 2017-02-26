@@ -1,0 +1,29 @@
+---
+- uid: github
+  name: GitHub
+  description: Hosting service for software development.
+  url: https://github.com/settings/applications
+  docs_url: https://help.github.com/articles/connecting-with-third-party-applications
+  instructions:
+    - Click the 'Revoke' button next to the app for which you want to revoke
+      the authorization.
+- uid: soundcloud
+  name: SoundCloud
+  description: Music and audio streaming platform.
+  instructions:
+    - Go to the section named 'Connected applications'
+    - Click the 'Revoke access' button next to the app you wish to revoke.
+- uid: tumblr
+  name: Tumblr
+  description: Microblogging platform.
+  url: https://www.tumblr.com/settings/apps
+  instructions:
+    - Click the cross right next to the app for which you want to revoke the
+      authorization.
+- uid: twitter
+  name: Twitter
+  description: Social networking.
+  url: https://twitter.com/settings/applications
+  instructions:
+    - Click the 'Revoke access' button next to the app for which you want to
+      revoke the authorization.
