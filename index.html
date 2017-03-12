@@ -2,28 +2,27 @@
 layout: default
 ---
 <div class="container fixed-width" style="width: 740px">
-
   <img src="images/searching.svg" style="margin: 2em; margin-left:auto; margin-right:auto; display: block; height: 120px; width: 120px;">
-  <h1 class="display-4" style=" text-align: center;"><span style="color: #83a7b8">review</span> <span style="color: #226278">permissions</span></h1>
+  <h1 class="display-4" style=" text-align: center;"><span style="color: #83a7b8">{{ site.name | downcase | split: ' ' | first }}</span> <span style="color: #226278">{{ site.name | downcase | split: ' ' | last }}</span></h1>
 
-  <p class="lead" style="text-align: center">Protect your accounts in a few minutes, and a few clicks.</p>
+  <p class="lead" style="text-align: center">{{ site.description }}</p>
 
   <ol style="margin: 1em 0">
     <li>Review the permissions granted to services that have access to your accounts.</li>
     <li>Revoke the permissions of services you don't recognize or don't use.</li>
-    <li>Check off the services you have reviewed.</li>
+    <li>Check off the reviewed services on the list.</li>
   </ol>
 
   <table class="table">
     <tbody>
       {% for site in site.data.sites %}
       <tr>
-        <td><input class="check-with-label" type="checkbox"></td>
-        <td><img class="rounded" style="width: 2em; height: 2em;" src="images/{{ site.uid }}.png"></td>
-        <td><a href="#">{{ site.name }}</a></td>
-        <td>{{ site.description }}</td>
-        <td>{% if site.docs_url %}<a href="#" class="text-muted">docs</a>{% endif %}</td>
-        <td><a href="#" class="btn btn-danger btn-sm">review</a></td>
+        <td class="align-middle"><input class="check-with-label" type="checkbox"></td>
+        <td class="align-middle"><img class="rounded" style="width: 2em; height: 2em;" src="images/{{ site.name | downcase  | replace: ' ', '_'  }}.png"></td>
+        <td class="align-middle"><a href="{{ site.url }}" target="_blank">{{ site.name }}</a></td>
+        <td class="align-middle">{{ site.description }}</td>
+        <td class="align-middle">{% if site.docs_url %}<a href="{{ site:docs_url }}" target="_blank" class="text-muted">docs</a>{% endif %}</td>
+        <td class="align-middle"><a href="{{ site.review_url }}" target="_blank" class="btn btn-danger btn-sm">review</a></td>
       </tr>
       {% endfor %}
     </tbody>

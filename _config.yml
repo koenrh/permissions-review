@@ -1,6 +1,8 @@
 permalink: pretty
 
-title: review permissions
+name: Review permissions
+description: Protect your accounts in a few minutes, and a few clicks.
+
 url: https://www.permissions.review
 
 exclude:

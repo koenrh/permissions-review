@@ -1,29 +1,64 @@
 ---
-- uid: github
-  name: GitHub
+- name: Google
+  description: Gmail, Maps, Docs, YouTube, and more.
+  review_url: https://myaccount.google.com/permissions
+  docs_url: https://support.google.com/accounts/bin/answer/3466521
+- name: Facebook
+  description: Social network.
+  review_url: https://www.facebook.com/settings?tab=applications
+- name: Twitter
+  description: Social network.
+  url: https://twitter.com
+  review_url: https://twitter.com/settings/applications
+  docs_url: https://support.twitter.com/articles/76052
+- name: Microsoft
+  description: Outlook, Xbox, OneDrive, and more.
+  url: https://www.microsoft.com
+  review_url: https://account.live.com/consent/Manage
+- name: LinkedIn
+  description: Social network.
+  url: https://www.linkedin.com
+  review_url: https://www.linkedin.com/psettings/third-party-applications
+- name: Instagram
+  description: Photo-sharing.
+  url: https://www.instagram.com
+  review_url: https://www.instagram.com/accounts/manage_access/
+- name: GitHub
   description: Hosting service for software development.
-  url: https://github.com/settings/applications
+  url: https://github.com/
+  review_url: https://github.com/settings/applications
   docs_url: https://help.github.com/articles/connecting-with-third-party-applications
-  instructions:
-    - Click the 'Revoke' button next to the app for which you want to revoke
-      the authorization.
-- uid: soundcloud
-  name: SoundCloud
+- name: Tumblr
+  description: Microblogging.
+  url: https://www.tumblr.com/
+  review_url: https://www.tumblr.com/settings/apps
+- name: Dropbox
+  description: Cloud storage.
+  review_url: https://www.dropbox.com/account/security
+- name: Reddit
+  description: social news, and -media aggregation.
+  url: https://www.reddit.com
+  review_url: https://www.reddit.com/prefs/apps/
+- name: Spotify
+  description: Music streaming platform.
+  url: https://www.spotify.com/
+  review_url: https://www.spotify.com/account/apps/
+- name: SoundCloud
   description: Music and audio streaming platform.
-  instructions:
-    - Go to the section named 'Connected applications'
-    - Click the 'Revoke access' button next to the app you wish to revoke.
-- uid: tumblr
-  name: Tumblr
-  description: Microblogging platform.
-  url: https://www.tumblr.com/settings/apps
-  instructions:
-    - Click the cross right next to the app for which you want to revoke the
-      authorization.
-- uid: twitter
-  name: Twitter
-  description: Social networking.
-  url: https://twitter.com/settings/applications
-  instructions:
-    - Click the 'Revoke access' button next to the app for which you want to
-      revoke the authorization.
+  url: https://soundcloud.com/
+  review_url: https://soundcloud.com/settings/connections
+- name: Medium
+  description: Blog-publishing platform.
+  url: https://medium.com/
+  review_url: https://medium.com/me/applications
+- name: Pocket
+  description: Bookmarking.
+  url: https://getpocket.com
+  review_url: https://getpocket.com/connected_applications
+- name: Vimeo
+  description: Video hosting.
+  url: https://vimeo.com
+  review_url: https://vimeo.com/settings/apps
+- name: Evernote
+  description: Note-taking app.
+  review_url: https://www.evernote.com/ConnectedServices.action
