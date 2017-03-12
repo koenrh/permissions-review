@@ -1,10 +1,12 @@
 ---
 - name: Google
   description: Gmail, Maps, Docs, YouTube, and more.
+  url: https://www.google.com/
   review_url: https://myaccount.google.com/permissions
   docs_url: https://support.google.com/accounts/bin/answer/3466521
 - name: Facebook
   description: Social network.
+  url: https://www.facebook.com/
   review_url: https://www.facebook.com/settings?tab=applications
 - name: Twitter
   description: Social network.
@@ -34,6 +36,7 @@
   review_url: https://www.tumblr.com/settings/apps
 - name: Dropbox
   description: Cloud storage.
+  url: https://www.dropbox.com/
   review_url: https://www.dropbox.com/account/security
 - name: Reddit
   description: social news, and -media aggregation.
@@ -61,4 +64,5 @@
   review_url: https://vimeo.com/settings/apps
 - name: Evernote
   description: Note-taking app.
+  url: https://evernote.com/
   review_url: https://www.evernote.com/ConnectedServices.action
