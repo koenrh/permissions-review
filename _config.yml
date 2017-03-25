@@ -1,12 +1,11 @@
 permalink: pretty
 
-name: Review your permissions
+name: Review app permissions
 description: Improve the security of your accounts in a few minutes, and a few clicks.
 
 url: https://www.permissions.review
 
 exclude:
-  - CONTRIBUTING.md
   - Gemfile
   - LICENSE
   - README.md
