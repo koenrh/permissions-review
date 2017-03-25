@@ -25,11 +25,6 @@
   description: Photo-sharing.
   url: https://www.instagram.com
   review_url: https://www.instagram.com/accounts/manage_access/
-- name: GitHub
-  description: Hosting service for software development.
-  url: https://github.com/
-  review_url: https://github.com/settings/applications
-  docs_url: https://help.github.com/articles/connecting-with-third-party-applications
 - name: Tumblr
   description: Microblogging.
   url: https://www.tumblr.com/
@@ -38,6 +33,15 @@
   description: Cloud storage.
   url: https://www.dropbox.com/
   review_url: https://www.dropbox.com/account/security
+- name: GitHub
+  description: Hosting service for software development.
+  url: https://github.com/
+  review_url: https://github.com/settings/applications
+  docs_url: https://help.github.com/articles/connecting-with-third-party-applications
+- name: GitLab
+  description: Code collaboration platform.
+  url: https://gitlab.com/
+  review_url: https://gitlab.com/profile/applications
 - name: Reddit
   description: social news, and -media aggregation.
   url: https://www.reddit.com
