@@ -28,7 +28,7 @@ layout: default
 
   <table class="table">
     <tbody>
-      {% for site in site.data.sites %}
+      {% for site in site.data.services %}
       <tr>
         <td class="align-middle"><input class="check-with-label" type="checkbox"></td>
         <td class="align-middle"><img class="rounded" style="width: 2em; height: 2em;" src="images/{{ site.name | downcase  | replace: ' ', '_'  }}.png"></td>

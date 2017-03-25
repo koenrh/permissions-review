@@ -6,9 +6,9 @@ Inspired by incidents such as the [compromise of The Counter](https://techcrunch
 
 ## Contributing
 
-### Adding a site
+### Adding a service
 
-You can add a site by adding a new entry to the [sites.yml](_data/sites.yml) data file.
+You can add a service by adding a new entry to the [services.yml](_data/services.yml) data file.
 
 Make sure to include the following keys:
 
