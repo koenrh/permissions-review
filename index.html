@@ -15,8 +15,8 @@ layout: default
   <p class="text-muted">Follow these basic steps to secure your accounts.</p>
 
   <ol style="margin: 1em 0">
-    <li>Review the permissions granted to services that have access to your accounts.</li>
-    <li>Revoke the permissions of services you don't recognize or don't use.</li>
+    <li>Review the permissions granted to third-party applications and services that have access to your accounts.</li>
+    <li>Revoke the permissions of third-party applications and services you don't recognise or don't use.</li>
     <li>Check off the reviewed services on the list.</li>
   </ol>
 
@@ -28,7 +28,7 @@ layout: default
 
   <table class="table">
     <tbody>
-      {% for site in site.data.sites %}
+      {% for site in site.data.services %}
       <tr>
         <td class="align-middle"><input class="check-with-label" type="checkbox"></td>
         <td class="align-middle"><img class="rounded" style="width: 2em; height: 2em;" src="images/{{ site.name | downcase  | replace: ' ', '_'  }}.png"></td>

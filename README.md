@@ -1,23 +1,23 @@
 # permissions.review
 
-[permissions.review](https://www.permissions.review/) is a little guide and checklist that helps you review permissions granted to third-party services or applications that have access your accounts. Reviewing these permissions, and revoking permissions of services you don't recognise or don't use, on a regular basis, improves the security of your online accounts.
+[permissions.review](https://www.permissions.review/) is a little guide and checklist that helps you review permissions granted to third-party applications and services that have access your accounts. Reviewing these permissions, and revoking permissions of applications and services you don't recognise or don't use, on a regular basis, improves the security of your accounts.
 
 Inspired by incidents such as the [compromise of The Counter](https://techcrunch.com/2017/03/15/twitter-counter-hacked/).
 
 ## Contributing
 
-### Adding a site
+### Adding a service
 
-You can add a site by adding a new entry to the [sites.yml](_data/sites.yml) data file.
+You can add a service by adding a new entry to the [services.yml](_data/services.yml) data file.
 
 Make sure to include the following keys:
 
-- `name` - Name of the service or app.
-- `description` - A short description of what the service is about.
-- `url` - URL to reach the main page of the service.
+- `name` - Name of the service.
+- `description` - A few-word description of the service.
+- `url` - URL of the main page of the service.
 - `review_url` - URL of the page on which permissions can be managed.
 
-Optionally, include a link (using the key `docs_url`) to site's own documentation regarding third-party app permissions.
+Optionally, include a link (using the key `docs_url`) to service's own documentation regarding third-party app permissions.
 
 See, for example, GitHub's entry:
 
