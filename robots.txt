@@ -1,0 +1,8 @@
+User-agent: *
+Disallow:
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: Baidu
+Disallow: /
