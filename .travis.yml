@@ -1,4 +1,5 @@
 language: ruby
+cache: bundler
 rvm: 2.4.0
-install: gem install kwalify
+#install: gem install kwalify
 script: kwalify -lf _data/sites_schema.yml _data/sites.yml | grep 'INVALID\|ERROR'; test $? -ne 0
