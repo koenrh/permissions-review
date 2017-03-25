@@ -1,6 +1,6 @@
 # permissions.review
 
-[permissions.review](https://www.permissions.review/) is a little guide and checklist that helps you review permissions granted to third-party apps that have access your accounts. Reviewing these permissions, and revoking permissions of apps you don't recognise or don't use, on a regular basis, improves the security of your accounts.
+[permissions.review](https://www.permissions.review/) is a little guide and checklist that helps you review permissions granted to third-party apps and services that have access your accounts. Reviewing these permissions, and revoking permissions of apps and services you don't recognise or don't use, on a regular basis, improves the security of your accounts.
 
 Inspired by incidents such as the [compromise of The Counter](https://techcrunch.com/2017/03/15/twitter-counter-hacked/).
 
