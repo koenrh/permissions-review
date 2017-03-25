@@ -2,7 +2,7 @@
 
 [permissions.review](https://www.permissions.review/) is a little guide and checklist that helps you review permissions granted to third-party services or applications that have access your accounts. Reviewing these permissions, and revoking permissions of services you don't recognise or don't use, on a regular basis, improves the security of your online accounts.
 
-Inspired by the [compromise of The Counter](https://techcrunch.com/2017/03/15/twitter-counter-hacked/).
+Inspired by incidents such as the [compromise of The Counter](https://techcrunch.com/2017/03/15/twitter-counter-hacked/).
 
 ## Contributing
 
