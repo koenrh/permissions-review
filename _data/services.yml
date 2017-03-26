@@ -86,3 +86,8 @@
   description: Note-taking app.
   url: https://evernote.com/
   review_url: https://www.evernote.com/ConnectedServices.action
+
+- name: Heroku
+  description: Cloud platform-as-a-service
+  url: https://www.heroku.com/
+  review_url: https://dashboard.heroku.com/account/applications
