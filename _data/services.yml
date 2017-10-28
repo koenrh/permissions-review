@@ -91,3 +91,7 @@
   description: Cloud platform-as-a-service
   url: https://www.heroku.com/
   review_url: https://dashboard.heroku.com/account/applications
+- name: Slack
+  description: Cloud-based team communication and collaboration.
+  url: https://slack.com/
+  review_url: https://blendle.slack.com/apps/manage
