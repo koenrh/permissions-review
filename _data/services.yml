@@ -24,7 +24,7 @@
 - name: LinkedIn
   description: Social network.
   url: https://www.linkedin.com
-  review_url: https://www.linkedin.com/psettings/third-party-applications
+  review_url: https://www.linkedin.com/psettings/permitted-services
 
 - name: Instagram
   description: Photo-sharing.
@@ -39,7 +39,7 @@
 - name: Dropbox
   description: Cloud storage.
   url: https://www.dropbox.com/
-  review_url: https://www.dropbox.com/account/security
+  review_url: https://www.dropbox.com/account/connected_apps
 
 - name: GitHub
   description: Hosting service for software development.
