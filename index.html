@@ -31,7 +31,7 @@ layout: default
       {% for site in site.data.services %}
       <tr>
         <td class="align-middle"><input class="check-with-label" type="checkbox"></td>
-        <td class="align-middle"><img class="rounded" style="width: 2em; height: 2em;" src="images/{{ site.name | downcase  | replace: ' ', '_'  }}.png"></td>
+        <td class="align-middle"><img class="rounded" style="width: 2em; height: 2em;" src="images/{{ site.name | downcase | replace: ' ', '_' | replace: '.', '_' }}.png"></td>
         <td class="align-middle"><a href="{{ site.url }}" target="_blank">{{ site.name }}</a></td>
         <td class="align-middle">{{ site.description }}</td>
         <td class="align-middle">{% if site.docs_url %}<a href="{{ site.docs_url }}" target="_blank" class="text-muted">docs</a>{% endif %}</td>
