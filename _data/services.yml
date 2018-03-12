@@ -96,7 +96,7 @@
 - name: Slack
   description: Cloud-based team communication and collaboration.
   url: https://slack.com/
-  review_url: https://blendle.slack.com/apps/manage
+  review_url: https://my.slack.com/apps/manage
 
 - name: WordPress.com
   description: Blogging platform.
