@@ -1,27 +1,28 @@
+---
 type: seq
 sequence:
   - type: map
     mapping:
       name:
         type: str
-        required: yes
-        unique: yes
+        required: true
+        unique: true
 
       description:
         type: str
-        required: yes
+        required: true
 
       url:
         type: str
-        required: yes
+        required: true
         pattern: /^https?:\/\//
 
       review_url:
         type: str
-        required: yes
+        required: true
         pattern: /^https?:\/\//
 
       docs_url:
         type: str
-        required: no
+        required: false
         pattern: /^https?:\/\//

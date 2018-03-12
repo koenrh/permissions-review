@@ -45,7 +45,8 @@
   description: Hosting service for software development.
   url: https://github.com/
   review_url: https://github.com/settings/applications
-  docs_url: https://help.github.com/articles/connecting-with-third-party-applications
+  docs_url: >
+    https://help.github.com/articles/connecting-with-third-party-applications
 
 - name: GitLab
   description: Code collaboration platform.

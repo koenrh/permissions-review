@@ -1,6 +1,6 @@
+---
 language: ruby
 cache: bundler
-rvm: 2.4.0
-script: bundle exec kwalify -lf _data/services_schema.yml _data/services.yml | grep 'INVALID\|ERROR'; test $? -ne 0
+script: script/test
 notifications:
   email: false
