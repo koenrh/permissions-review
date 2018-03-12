@@ -66,7 +66,7 @@
 - name: SoundCloud
   description: Music and audio streaming platform.
   url: https://soundcloud.com/
-  review_url: https://soundcloud.com/settings/connections
+  review_url: https://soundcloud.com/settings
 
 - name: Medium
   description: Blog-publishing platform.
@@ -96,7 +96,7 @@
 - name: Slack
   description: Cloud-based team communication and collaboration.
   url: https://slack.com/
-  review_url: https://blendle.slack.com/apps/manage
+  review_url: https://my.slack.com/apps/manage
 
 - name: WordPress.com
   description: Blogging platform.
