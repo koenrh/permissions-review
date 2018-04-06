@@ -36,6 +36,16 @@
   url: https://www.tumblr.com/
   review_url: https://www.tumblr.com/settings/apps
 
+- name: Adobe
+  description: Software.
+  url: https://www.adobe.com/
+  review_url: https://accounts.adobe.com/security/social-accounts
+
+- name: Buffer
+  description: Managing social network accounts.
+  url: https://buffer.com/
+  review_url: https://buffer.com/app/account/apps
+
 - name: Dropbox
   description: Cloud storage.
   url: https://www.dropbox.com/
@@ -52,6 +62,16 @@
   description: Code collaboration platform.
   url: https://gitlab.com/
   review_url: https://gitlab.com/profile/applications
+
+- name: Instapaper
+  description: Bookmarking service.
+  url: https://www.instapaper.com/
+  review_url: https://www.instapaper.com/user
+
+- name: Meetup
+  description: Event management and organizatoin.
+  url: https://www.meetup.com/
+  review_url: https://www.meetup.com/account/oauth_apps/
 
 - name: Reddit
   description: social news, and -media aggregation.
@@ -72,6 +92,11 @@
   description: Blog-publishing platform.
   url: https://medium.com/
   review_url: https://medium.com/me/applications
+
+- name: Patreon
+  description: Membership platform.
+  url: https://www.patreon.com/
+  review_url: https://www.patreon.com/settings/account
 
 - name: Pocket
   description: Bookmarking.
@@ -97,6 +122,11 @@
   description: Cloud-based team communication and collaboration.
   url: https://slack.com/
   review_url: https://my.slack.com/apps/manage
+
+- name: Snapchat
+  description: Photo messaging app.
+  url: https://www.snapchat.com/
+  review_url: https://accounts.snapchat.com/accounts/oauth2/apps
 
 - name: WordPress.com
   description: Blogging platform.
