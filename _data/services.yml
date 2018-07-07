@@ -68,6 +68,11 @@
   url: https://www.instapaper.com/
   review_url: https://www.instapaper.com/user
 
+- name: Goodreads
+  description: Find and share books.
+  url: https://www.goodreads.com/
+  review_url: https://www.goodreads.com/user/edit?tab=apps
+
 - name: Meetup
   description: Event management and organizatoin.
   url: https://www.meetup.com/
