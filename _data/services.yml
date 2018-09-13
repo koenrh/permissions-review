@@ -1,4 +1,10 @@
 ---
+- name: Amazon
+  description: Shopping.
+  url: https://www.amazon.com
+  review_url: https://www.amazon.com/ap/adam
+  docs_url: https://www.amazon.com/gp/help/customer/display.html/?nodeId=201194060
+
 - name: Google
   description: Gmail, Maps, Docs, YouTube, and more.
   url: https://www.google.com/
@@ -83,6 +89,11 @@
   url: https://www.reddit.com
   review_url: https://www.reddit.com/prefs/apps/
 
+- name: YouTube
+  description: Video.
+  url: https://www.youtube.com
+  review_url: https://www.youtube.com/account_sharing
+
 - name: Spotify
   description: Music streaming platform.
   url: https://www.spotify.com/
@@ -109,7 +120,7 @@
   review_url: https://getpocket.com/connected_applications
 
 - name: Vimeo
-  description: Video hosting.
+  description: Video.
   url: https://vimeo.com
   review_url: https://vimeo.com/settings/apps
 
@@ -138,3 +149,8 @@
   url: https://wordpress.com/
   review_url: https://wordpress.com/me/security/connected-applications
   docs_url: https://support.wordpress.com/third-party-applications/
+
+- name: Bol.com
+  description: Shopping.
+  url: https://www.bol.com
+  review_url: https://www.bol.com/nl/account/apps.html
