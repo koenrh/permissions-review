@@ -6,4 +6,5 @@ gem 'github-pages'
 
 group :test do
   gem 'kwalify'
+  gem 'rake'
 end
