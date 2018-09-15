@@ -7,3 +7,13 @@
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Content-Security-Policy-Report-Only = "style-src 'self'; default-src 'self'; img-src 'self'; form-action 'none'; frame-ancestors 'none'; report-uri https://permissionsreview.report-uri.com/r/d/csp/wizard"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
