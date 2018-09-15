@@ -1,0 +1,28 @@
+div#container {
+  width: 740px
+}
+
+div#header {
+ text-align: center;
+}
+
+img#logo {
+ margin: 2em;
+ height: 64px;
+ width: 64px;
+}
+
+ol#steps {
+ margin: 1em 0;
+}
+
+img.icon {
+  width: 2em;
+  height: 2em;
+}
+
+div.footer {
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1em 0;
+}

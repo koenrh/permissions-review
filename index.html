@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div class="container fixed-width" style="width: 740px">
-  <div style="text-align: center">
-    <img src="images/lock.svg" style="margin: 2em; height: 64px; width: 64px;">
+<div id="container" class="container fixed-width">
+  <div id="header">
+    <img id="logo" src="images/lock.svg">
     <h1>{{ site.name }}</h1>
     <p class="lead">{{ site.description }}</p>
   </div>
@@ -14,7 +14,7 @@ layout: default
 
   <p class="text-muted">Follow these basic steps to secure your accounts.</p>
 
-  <ol style="margin: 1em 0">
+  <ol id="steps">
     <li>Review the permissions granted to third-party applications and services that have access to your accounts.</li>
     <li>Revoke the permissions of third-party applications and services you don't recognise or don't use.</li>
     <li>Check off the reviewed services on the list.</li>
@@ -31,7 +31,7 @@ layout: default
       {% for site in site.data.services %}
       <tr>
         <td class="align-middle"><input class="check-with-label" type="checkbox"></td>
-        <td class="align-middle"><img class="rounded" style="width: 2em; height: 2em;" src="images/{{ site.name | downcase | replace: ' ', '_' | replace: '.', '_' }}.png"></td>
+        <td class="align-middle"><img class="rounded icon" src="images/{{ site.name | downcase | replace: ' ', '_' | replace: '.', '_' }}.png"></td>
         <td class="align-middle"><a href="{{ site.url }}" target="_blank">{{ site.name }}</a></td>
         <td class="align-middle">{{ site.description }}</td>
         <td class="align-middle">{% if site.docs_url %}<a href="{{ site.docs_url }}" target="_blank" class="text-muted">docs</a>{% endif %}</td>
