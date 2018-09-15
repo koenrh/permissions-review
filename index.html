@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="container" class="container fixed-width">
   <div id="header">
-    <img id="logo" src="images/lock.svg">
+    <img id="logo" alt="Review app permissions logo" src="images/lock.svg">
     <h1>{{ site.name }}</h1>
     <p class="lead">{{ site.description }}</p>
   </div>
@@ -31,7 +31,7 @@ layout: default
       {% for site in site.data.services %}
       <tr>
         <td class="align-middle"><input class="check-with-label" type="checkbox"></td>
-        <td class="align-middle"><img class="rounded icon" src="images/{{ site.name | downcase | replace: ' ', '_' | replace: '.', '_' }}.png"></td>
+        <td class="align-middle"><img class="rounded icon" alt="{{ site.name }} icon" src="images/{{ site.name | downcase | replace: ' ', '_' | replace: '.', '_' }}.png"></td>
         <td class="align-middle"><a href="{{ site.url }}" target="_blank" rel="noopener">{{ site.name }}</a></td>
         <td class="align-middle">{{ site.description }}</td>
         <td class="align-middle">{% if site.docs_url %}<a href="{{ site.docs_url }}" target="_blank" rel="noopener" class="text-muted">docs</a>{% endif %}</td>
