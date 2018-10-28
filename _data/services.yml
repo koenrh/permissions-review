@@ -79,6 +79,11 @@
   url: https://www.goodreads.com/
   review_url: https://www.goodreads.com/user/edit?tab=apps
 
+- name: Blinkist
+  description: Summaries of non-ficiton books.
+  url: https://www.blinkist.com/
+  review_url: https://www.blinkist.com/en/nc/settings/external_services/
+
 - name: Meetup
   description: Event management and organizatoin.
   url: https://www.meetup.com/
