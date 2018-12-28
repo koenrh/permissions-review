@@ -6,7 +6,7 @@
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'self'; style-src 'self'; img-src 'self' https://koen.usesfathom.com; script-src 'sha256-r7wbmGCaKcXTphs9XvjwKBAkxzcbYPP78RRQ+S9FddM=' https://koen.usesfathom.com; frame-ancestors 'none'; form-action 'none'; report-uri https://permissionsreview.report-uri.com/r/d/csp/enforce;"
+    Content-Security-Policy = "default-src 'self'; style-src 'self'; img-src 'self' https://koenrh.matomo.cloud; script-src 'sha256-cw201C1grsNRpAH1Ih4c76Vn4QKwCDHjyHE973JHzVg=' https://cdn.matomo.cloud; frame-ancestors 'none'; form-action 'none'; report-uri https://permissionsreview.report-uri.com/r/d/csp/enforce;"
 
 [[headers]]
   for = "/images/*"
