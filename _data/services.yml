@@ -117,7 +117,7 @@
 - name: Patreon
   description: Membership platform.
   url: https://www.patreon.com/
-  review_url: https://www.patreon.com/settings/account
+  review_url: https://www.patreon.com/settings/apps
 
 - name: Pocket
   description: Bookmarking.
