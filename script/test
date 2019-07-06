@@ -2,9 +2,7 @@
 
 set -au
 
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/.." || exit
 
-
-# bundle exec kwalify -lf _data/services_schema.yml _data/services.yml | grep 'INVALID\|ERROR'; test $? -ne 0
 bundle exec kwalify -lf _data/services_schema.yml _data/services.yml | grep 'INVALID\|ERROR'
 test $? -ne 0
