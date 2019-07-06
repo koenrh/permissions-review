@@ -6,7 +6,6 @@
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'self'; style-src 'self'; img-src 'self'; frame-ancestors 'none'; form-action 'none'; report-uri https://permissionsreview.report-uri.com/r/d/csp/enforce;"
 
 [[headers]]
   for = "/images/*"
