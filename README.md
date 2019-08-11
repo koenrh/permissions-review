@@ -1,7 +1,5 @@
 # permissions.review
 
-[![Build Status](https://travis-ci.org/koenrh/permissions-review.svg?branch=master)](https://travis-ci.org/koenrh/permissions-review)
-
 [permissions.review](https://www.permissions.review/) is a little guide and checklist
 that helps you review permissions granted to third-party applications and services
 that have access your accounts. Reviewing these permissions, and revoking permissions

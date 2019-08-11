@@ -1,6 +1,0 @@
----
-language: ruby
-cache: bundler
-script: script/test
-notifications:
-  email: false
