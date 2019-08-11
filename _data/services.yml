@@ -159,3 +159,8 @@
   description: Shopping.
   url: https://www.bol.com
   review_url: https://www.bol.com/nl/account/apps.html
+
+- name: Atlassian
+  description: Collaboration tools.
+  url: https://www.atlassian.com
+  review_url: https://id.atlassian.com/manage-profile/apps
