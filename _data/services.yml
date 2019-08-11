@@ -5,6 +5,8 @@
   review_url: https://www.amazon.com/ap/adam
   docs_url: https://www.amazon.com/gp/help/customer/display.html/?nodeId=201194060
 
+- name: Test
+
 - name: Google
   description: Gmail, Maps, Docs, YouTube, and more.
   url: https://www.google.com/
